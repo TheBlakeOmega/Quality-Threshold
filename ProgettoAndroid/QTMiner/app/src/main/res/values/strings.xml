@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">QT Miner</string>
+    <string name="indirizzo">http://androidsrc.net/</string>
+    <string name="informations">Informations</string>
+    <string name="qtinfo">Qtinfo</string>
+    <string name="db">Load data from DB</string>
+    <string name="file">LOad clusters from file</string>
+    <string name="IP">IP-Address</string>
+    <string name="Porta">Port No</string>
+    <string name="Connessione">Connect To Server</string>
+    <string name="extcall">textcall</string>
+    <string name="textreply">tring/textreply</string>
+    <string name="textclose">textclose</string>
+    <string name="ok">okay</string>
+    <string name="k">k</string>
+    <string name="todo">TODO</string>
+    <string name="Tabella">Insert Table name</string>
+    <string name="Radius">Insert Radius</string>
+    <string name="Invio">SEND</string>
+    <string name="end">End</string>
+    <string name="Dati">Conferma dati</string>
+    <string name="doubleclick">Double Click!</string>
+
+    <string name="Titolo">Quality Threshold (QT) clustering algorithm</string>
+    <string name="Incipit">This algorithm requires the apriori specification of the threshold distance within the cluster and the minimum number of elements in each cluster. Now from each data point we find all its candidate data points. Candidate data points are those which are within the range of the threshold distance from the given data point. This way we find the candidate data points for all data point and choose the one with large number of candidate data points to form cluster. Now data points which belongs to this cluster is removed and the same procedure is repeated with the reduced set of data points until no more cluster can be formed satisfying the minimum size criteria.</string>
+    <string name="Titolostep">Algorithmic steps for QT clustering </string>
+    <string name="step">1) Initialize the threshold distance allowed for clusters and the minimum cluster size.
+2) Build a candidate cluster for each data point by including the closest point, the next closest, and so on, until the distance of the cluster surpasses the threshold.
+3) Save the candidate cluster with the most points as the first true cluster and remove all points in the cluster from further consideration.
+4) Repeat with the reduced set of points until no more cluster can be formed having the minimum cluster size.</string>
+    <string name="Titolovantaggi">Advantages</string>
+    <string name="vantaggi">1) Quality Guaranteed - Only clusters that pass a user-defined quality threshold will be returned.
+2) Number of clusters is not specified apriori.
+3) All possible clusters are considered - Candidate cluster is generated with respect to every data points and tested in order of size against quality criteria. </string>
+    <string name="Titolosvantaggi">Disadvantages</string>
+    <string name="svantaggi">1) Computationally Intensive and Time Consuming - Increasing the minimum cluster size or increasing the number of data points can greatly increase the computational time.
+2) Threshold distance and minimum number of elements in the cluster must be defined apriori.
+</string>
+    <string name="tablenone">Tabella non esiste</string>
+    <string name="savenone">Salvataggio non riuscito</string>
+    <string name="radiusnone">Raggio non valido</string>
+    <string name="errT">erroreT</string>
+</resources>

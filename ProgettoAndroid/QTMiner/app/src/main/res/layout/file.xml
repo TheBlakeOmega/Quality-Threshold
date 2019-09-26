@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/Table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Tabella"
+        android:focusable="true"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Radius"
+        android:focusable="true"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/Invio"
+        style="@style/CustomButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/Invio" />
+
+    <TextView
+        android:id="@+id/ShowFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-1dp"
+        android:background="#6068BBFC"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textSize="15sp" />
+
+</LinearLayout>
